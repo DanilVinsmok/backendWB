@@ -1,0 +1,25 @@
+export default interface IWarehouseModel {
+    id: number;
+    lastchangedate: string,
+    supplierarticle: string,
+    techsize: string,
+    barcode: string,
+    quantity: number,
+    issupply: boolean,
+    isrealization: boolean,
+    quantityfull: number,
+    quantitynotinorders: number,
+    warehouse: string,
+    warehousename: string,
+    inwaytoclient: number,
+    inwayfromclient: number,
+    nmid: number,
+    subject: string,
+    category: string,
+    daysonsite: number,
+    brand: string,
+    sccode: string,
+    price: number,
+    discount: number,
+    idBrand: string
+}

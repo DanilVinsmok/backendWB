@@ -1,0 +1,21 @@
+export interface IOrderModel {
+    gnumber: string,
+    date: string,
+    lastchangedate: string,
+    supplierarticle: string,
+    techsize: string,
+    barcode: string,
+    totalprice: number,
+    discountpercent: number,
+    warehousename: string,
+    oblast: string,
+    incomeid: number,
+    odid: number,
+    nmid: number,
+    subject: string,
+    category: string,
+    brand: string,
+    is_cancel: boolean,
+    sticker: string,
+    idbrand: string
+}

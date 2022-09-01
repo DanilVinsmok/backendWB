@@ -1,0 +1,21 @@
+export interface IOrderDto {
+    gNumber: string,
+    date: string,
+    lastChangeDate: string,
+    supplierArticle: string,
+    techSize: string,
+    barcode: string,
+    totalPrice: number,
+    discountPercent: number,
+    warehouseName: string,
+    oblast: string,
+    incomeID: number,
+    odid: number,
+    nmid: number,
+    subject: string,
+    category: string,
+    brand: string,
+    is_cancel: boolean,
+    sticker: string,
+    idBrand: string
+}
